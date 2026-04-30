@@ -1,0 +1,26 @@
+from django.contrib import admin
+
+from . import models
+
+admin.site.register(models.Pais)
+admin.site.register(models.Provincia)
+admin.site.register(models.Canton)
+admin.site.register(models.NivelEducativo)
+admin.site.register(models.Grado)
+admin.site.register(models.Persona)
+admin.site.register(models.Rol)
+admin.site.register(models.PersonaRol)
+admin.site.register(models.Alumno)
+admin.site.register(models.Profesor)
+admin.site.register(models.PeriodoLectivo)
+admin.site.register(models.Paralelo)
+admin.site.register(models.Matricula)
+admin.site.register(models.Materia)
+admin.site.register(models.Asignatura)
+admin.site.register(models.ProfesorMateria)
+admin.site.register(models.UnidadAcademica)
+admin.site.register(models.MateriaAsignada)
+admin.site.register(models.SesionClase)
+admin.site.register(models.Asistencia)
+admin.site.register(models.CalificacionMensual)
+admin.site.register(models.CalificacionUnidad)
